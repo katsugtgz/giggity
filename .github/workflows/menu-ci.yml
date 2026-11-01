@@ -39,7 +39,7 @@ jobs:
           pip install -r tools/requirements-ci.txt
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
         with:
           packages: 'platform-tools'
 
